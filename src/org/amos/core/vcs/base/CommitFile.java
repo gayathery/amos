@@ -1,6 +1,13 @@
-package org.amos.vcs.core;
+package org.amos.core.vcs.base;
 
 import java.io.File;
+
+
+/**
+ * @author Gayathery
+ * @desc This entity class holds the properties of a committed file.
+ *
+ */
 
 public class CommitFile {
 
@@ -8,6 +15,10 @@ public class CommitFile {
 	public File oldPath;
 	public File newPath;
 	
+	
+	/**
+	 * @author Gayathery
+	 */
 	public CommitFile()
 	{
 		commitState = CommitState.NOTSET;
@@ -15,6 +26,12 @@ public class CommitFile {
 		newPath = null;
 	}
 	
+	/**
+	 * @author Gayathery
+	 * @param oldPath
+	 * @param newPath
+	 * @param commitState
+	 */
 	public CommitFile(File oldPath, File newPath, CommitState commitState)
 	{
 		this.commitState = commitState;
