@@ -4,7 +4,7 @@ import java.io.File;
 
 
 /**
- * @author Gayathery
+ * @author Gayathery Sathya
  * @desc This entity class holds the properties of a committed file.
  *
  */
