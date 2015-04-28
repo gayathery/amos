@@ -7,7 +7,7 @@ import org.amos.core.vcs.impl.GitVcsClient;
 import org.amos.core.vcs.interfaces.VcsClient;
 
 /**
- * @author Gayathery
+ * @author Gayathery sathya
  * @desc This class is a client to the VersionControl. This class exposes methods 
  * to connect to the supported instance of the vcs and perform basic operations like 
  * getbrach details, get commit details....
