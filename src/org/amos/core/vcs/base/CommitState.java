@@ -2,7 +2,7 @@ package org.amos.core.vcs.base;
 
 
 /**
- * @author Gayathery
+ * @author Gayathery sathya
  * @desc list of all commit states of a file in VCS environment.
  *
  */
